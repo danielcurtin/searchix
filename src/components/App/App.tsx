@@ -9,6 +9,7 @@ const App = () => {
     <main className='app'>
       <h1>Searchix</h1>
       <Search></Search>
+      <Saved></Saved>
     </main>
   );
 };
