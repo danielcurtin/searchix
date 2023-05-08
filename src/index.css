@@ -18,4 +18,14 @@ code {
 * {
   margin: 0;
   padding: 0;
+  color: white;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
 }

@@ -1,0 +1,34 @@
+.saved-fixes {
+  height: 15%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.fix-dropdown {
+  height: 55%;
+  width: 60%;
+  color: black;
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.add-fix,
+.del-fix {
+  height: 60%;
+  width: 10%;
+  color: white;
+  background: #0d0d0d;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  transition: background 500ms;
+}
+
+.add-fix:hover,
+.del-fix:hover {
+  background: black;
+}
